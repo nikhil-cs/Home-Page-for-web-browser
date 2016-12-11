@@ -6,6 +6,7 @@ function searchYoutube(){
 	 for (var i = 0; i < res.length; i++) {
 	 	link = link + res[i] + "+";
 	 }
+	document.getElementById("youtubeTxt").value="";
 	 	window.open(link);
 }
 function searchIdope(){
@@ -16,5 +17,6 @@ function searchIdope(){
 	 for (var i = 0; i < res.length; i++) {
 	 	link = link + res[i] + "%20";
 	 }
+	document.getElementById("idopeTxt").value="";
 	 	window.open(link);
 }
