@@ -1,0 +1,46 @@
+body,html{
+	height: 100%;
+}
+
+
+.parallax { 
+	background-image: url("images/wallup.png");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#idope-image{
+	margin-top: 22px;
+	margin-bottom: 18px;
+	max-height: 80px;
+}
+#youtube-image{
+	max-width: 200px;
+}
+#idope-search{
+	box-sizing: border-box ;
+}
+.bookmarks{
+	border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 5px;
+    border-radius: 3px;
+    text-align: center;
+	
+}
+
+p{
+	color: white;
+}
+a:link{
+	text-decoration: none;
+}
+
+
+
+
+
